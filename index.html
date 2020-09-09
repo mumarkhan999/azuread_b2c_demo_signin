@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Customized Login Page</title>
+        <link rel="stylesheet" href="https://ff2a4eee4161.ngrok.io/static/georgia_power/css/style-b2c.css">
+        <style>
+            @font-face{font-family:"Exo";src:url("https://ff2a4eee4161.ngrok.io/static/georgia_power/fonts/exo/Exo2-SemiBold.ttf")}
+body {
+    background-color: #121212;
+    font-family: 'Exo';
+}
+
+.container {
+    background-color: #212121;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+    box-shadow: -2px -2px 8px rgba(200, 200, 200, 0.3), 5px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container h1 {
+    color: #fafafa;
+    text-align: center;
+}
+
+.container h2 {
+    color: #fafafa;
+    text-align: center;
+}
+
+.container label {
+    color: #fafafa;
+}
+
+.container input {
+    color: white;
+    outline: none;
+    border: 1px solid #fafafa;
+    background-color: #212121;
+    margin: 15px 0;
+    padding: 10px 12px;
+    border-radius: 50px;
+    width: 90%;
+}
+
+.container button {
+    outline: none;
+    border: none;
+    background: #212121;
+    width: 95%;
+    padding: 12px;
+    color: #fafafa;
+    border-radius: 50px;
+    margin: 12px 0;
+    translate: .4s;
+    box-shadow: -2px -2px 8px rgba(200, 200, 200, 0.3), 5px 5px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container button:active {
+    box-shadow: 2px -2px 8px rgba(200, 200, 200, 0.3), -5px -5px 8px rgba(0, 0, 0, 0.8);
+}
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Say hello to every one.</h1>
+            <div id="api"></div>
+        </div>
+    </body>
+</html>
