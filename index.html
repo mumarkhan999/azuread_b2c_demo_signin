@@ -1,9 +1,8 @@
 <html>
     <head>
-        <title>Customized Login Page</title>
-        <link rel="stylesheet" href="https://ff2a4eee4161.ngrok.io/static/georgia_power/css/style-b2c.css">
+        <title>Customized Logout Page</title>
+        <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADUsYIAS6/pAAI29gD9/f4A+fHmAA8x0gC8vroAx6HiACBbtgAHbPMAUIvjAD7f+AA6lt4Ah+L9AKyemQD8/vwA/f78AP7+/ADw+P0ATYDRANvUxgCp+PgA6KfAAPRdwQC1ldQA+P79APDXtQB+W6sAqTWYAPz+/QDLx8sArLypAP7+/QD51qcABB/NAOO2hgBXaacAkDZ+APb49gCguuoA2cK4AAMy6wDI9v4A/f7+ANSYuwAFL+MA/v7+AMV7qgBcQ8gA64PMAPLZuQDv1/kAy2frAMK1zgDt7e0ACTbxAOa8oAAH2vsAxV/hAN6F0ABneOEA4IjxAP7+/wCILHsAb4FkAHjKuAChl+sAZEWSAO3l7ADvv/wA3bOBAA1F6QDaluwAj0DIANG1zwD4+f4Al3VLAB2n7gCEW6YApmnQADJmtADJl+IA8s28AP3a0QDKm74A79GxAP7//gD09PQA///+AGmD5QDXg/EA3j6qAKNOkACe7/4A3Y32AB89pQD1f9IAq+z+AD1k5AD9//8A/v//AP///wBxpJkAYqr9AP3t3wDw8PAAtrydALy0xAD7/voASdbuAP39/QDu7u4A39/fAE7Q3gBQlv0AqntEAEux/ADktZcA+P3+AGnLwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZWVlZWVlZWVlZEQrZWVlZWVlZWVlYx5hckpOMWVlZWVlZWVlLlxDZwE7HDACLmVlZWVlBGovPyYqGRAFX2JlZWVlR1l3MlZWZWVlEilGZWVlHQwIditlZWVlZRFATBFlZSwYN2VlZWVlZWVlGkg1ZS4kJS5lV29waWllZTM8XmUuFgZlZVc2cGlpbmVlPUVlIUEAZWVlZWVlZWVlZXUfFGUjUi5lZVhlZWVlZQNoU2VlBxNJC3FaNGtlZWVgG1suZStPUU0JOkIOZWU+DRdUZWVlLj4VOSBVZjgtCm10K2VlZWVlZWVlbHMoUCJdD2VlZWVlZWVlZWVlZSdLZWVlZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
         <style>
-            @font-face{font-family:"Exo";src:url("https://ff2a4eee4161.ngrok.io/static/georgia_power/fonts/exo/Exo2-SemiBold.ttf")}
 body {
     background-color: #121212;
     font-family: 'Exo';
@@ -11,9 +10,6 @@ body {
 
 .container {
     background-color: #212121;
-    padding: 20px;
-    width: 500px;
-    height: 400px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -22,54 +18,20 @@ body {
     box-shadow: -2px -2px 8px rgba(200, 200, 200, 0.3), 5px 5px 8px rgba(0, 0, 0, 0.8);
 }
 
-.container h1 {
-    color: #fafafa;
-    text-align: center;
-}
 
-.container h2 {
-    color: #fafafa;
-    text-align: center;
-}
 
-.container label {
-    color: #fafafa;
-}
 
-.container input {
-    color: white;
-    outline: none;
-    border: 1px solid #fafafa;
-    background-color: #212121;
-    margin: 15px 0;
-    padding: 10px 12px;
-    border-radius: 50px;
-    width: 90%;
+.edx-iframe {
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
 }
-
-.container button {
-    outline: none;
-    border: none;
-    background: #212121;
-    width: 95%;
-    padding: 12px;
-    color: #fafafa;
-    border-radius: 50px;
-    margin: 12px 0;
-    translate: .4s;
-    box-shadow: -2px -2px 8px rgba(200, 200, 200, 0.3), 5px 5px 8px rgba(0, 0, 0, 0.8);
-}
-
-.container button:active {
-    box-shadow: 2px -2px 8px rgba(200, 200, 200, 0.3), -5px -5px 8px rgba(0, 0, 0, 0.8);
-}
-
         </style>
     </head>
 
     <body>
         <div class="container">
-            <h1>Say hello to every one.</h1>
+            <iframe class="edx-iframe" src="https://blackhillsswepco.dev-learn.clearesult.com/logout" frameborder="0"></iframe>
             <div id="api"></div>
         </div>
     </body>
